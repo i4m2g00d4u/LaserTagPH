@@ -1,0 +1,32 @@
+name: LaserTagPH
+version: 1.0
+main: com.playhills.lasertag.Main
+depend: [PlayHillsAPI]
+authors:
+  - Wulix
+  - Caki
+commands:
+  countdown:
+    description: DEVELOPER_COUNTDOWN
+  cancelcountdown:
+    description: DEVELOPER_CANCEL_COUNTDOWN
+  start:
+    description: HELPER_START
+  shutdown:
+    description: DEVELOPER_SHUTDOWN
+  cancelshutdown:
+    description: DEVELOPER_CANCEL_SHUTDOWN
+  item:
+    description: DEVELOPER_ITEM
+  forcemap:
+    description: PRIVATE_FORCEMAP
+  top:
+    aliases:
+      - top10
+      - topplayers
+      - ranking
+    description: PUBLIC_TOP
+  stats:
+    description: PUBLIC_STATS
+  reset:
+    description: DELVELOPER_RESET_DATABASE

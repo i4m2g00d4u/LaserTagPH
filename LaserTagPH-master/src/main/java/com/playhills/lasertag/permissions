@@ -1,0 +1,17 @@
+Countdown:
+  LaserTag.command.countdown
+Forcemap:
+  LaserTag.command.forcemap
+Item:
+  LaserTag.command.item
+Shutdown:
+  LaserTag.command.shutdown
+Reset:
+  LaserTag.game.resetall
+Start:
+  LaserTag.command.start.default
+  LaserTag.command.start.bypass
+Cancel:
+  LaserTag.command.showshutdown
+  LaserTag.command.cancelcountdown
+  LaserTag.command.cancelshutdown
